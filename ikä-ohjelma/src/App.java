@@ -1,7 +1,7 @@
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         int ika = 20;
-        int ika = 18;
+
         // Tulostusehdot
         if (ika >= 0 && ika < 18) {
             System.out.println("Olet alaikäinen");
@@ -11,16 +11,22 @@ public class App {
             if (ika >= 16) {
                 System.out.println("Saat ajaa kevaria");
             }
+
         } else if (ika >= 18 && ika < 65) {
             System.out.println("Olet aikuinen");
             if (ika == 18) {
                 System.out.println("Olet täysiikäinen ja voit ajaa autoa");
             }
-            } else if (ika >= 65) {
+
+        } else if (ika >= 65) {
             System.out.println("Olet eläkeläinen");
-        } else {
-            
+        }
+
+        // Tasavuosikymmenet (erillinen tarkistus)
+        if (ika == 20) {
+            System.out.println("Onnea 20-vuotispäivästä");
+        } else if (ika == 30) {
+            System.out.println("Onnea 30-vuotispäivästä!");
         }
     }
 }
-

@@ -6,6 +6,10 @@ public class App {
         {
             System.out.println("Olet alaikäinen");
         }
+        else if (ika >= 65)
+        {
+            System.out.println("Olet eläkeläinen");
+        }
         else
         {
             System.out.println("Olet aikuinen");

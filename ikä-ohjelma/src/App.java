@@ -12,6 +12,8 @@ public class App {
         }
         else
         {
+        if (ika >=16) 
+                System.out.println("Saat ajaa kevaria");
             System.out.println("Olet aikuinen");
         } 
 
